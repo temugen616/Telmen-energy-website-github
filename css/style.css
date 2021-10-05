@@ -129,7 +129,8 @@ h6 {
     font-size: 26px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 70px;
+    margin: auto;
   }
 }
 
