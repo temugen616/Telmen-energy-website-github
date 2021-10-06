@@ -46,10 +46,10 @@ h6 {
 }
 #Action_bar {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: auto;
+  top: 459px;
   width: 100%;
-  z-index: 30;
+  z-index: 60;
   line-height: 21px;
 }
 /* Prelaoder */
@@ -155,7 +155,7 @@ ul.stock_ticker li.plus .sqitem:hover {
     font-size: 26px;
   }
   #header #logo img {
-    max-height: 70px;
+    max-height: 66px;
     margin: auto;
   }
 }
@@ -422,7 +422,7 @@ ul.stock_ticker li.plus .sqitem:hover {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #203c74;
 }
 
 @media (max-width: 768px) {
@@ -721,7 +721,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #call-to-action .cta-title {
   color: #fff;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 700px;
 }
 
 #call-to-action .cta-text {
